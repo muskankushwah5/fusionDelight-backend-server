@@ -8,7 +8,7 @@ import path, { join } from "path";
 
 import multer from "multer";
 
-import userRoutes from "./routes/userRoute.js";
+import userRoutes from "./routes/UserRoute.js";
 import bookingRoute from "./routes/BookingRoute.js";
 import dishRoutes from "./routes/DishRoute.js";
 import orderRoutes from "./routes/OrderRoute.js";
