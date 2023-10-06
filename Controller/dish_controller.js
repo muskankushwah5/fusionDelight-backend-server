@@ -74,7 +74,7 @@ export const deleteDishHandler = async (req, res) => {
         .sort({ timestamp: -1 })
         .exec();
   
-        const baseUrl = 'https://fusion-delight-backend-server.vercel.app';
+        const baseUrl = 'https://fusion-delight-server-backend-2-0.onrender.com';
       // Construct image URLs for each dish
       const dishesWithImageUrls = dishes.map((dish) => {
         const imageUrl = `${baseUrl}/uploads/${dish.dishUrl}`; // Construct the image URL
@@ -108,7 +108,7 @@ export const deleteDishHandler = async (req, res) => {
         .sort({ timestamp: -1 })
         .exec();
   
-        const baseUrl = 'https://fusion-delight-backend-server.vercel.app';
+        const baseUrl = 'https://fusion-delight-server-backend-2-0.onrender.com';
       // Construct image URLs for each dish
       const dishesWithImageUrls = dishes.map((dish) => {
         const imageUrl = `${baseUrl}/uploads/${dish.dishUrl}`; // Construct the image URL
@@ -142,7 +142,7 @@ export const deleteDishHandler = async (req, res) => {
         .sort({ timestamp: -1 })
         .exec();
   
-        const baseUrl = 'https://fusion-delight-backend-server.vercel.app';
+        const baseUrl = 'https://fusion-delight-server-backend-2-0.onrender.com';
       // Construct image URLs for each dish
       const dishesWithImageUrls = dishes.map((dish) => {
         const imageUrl = `${baseUrl}/uploads/${dish.dishUrl}`; // Construct the image URL
