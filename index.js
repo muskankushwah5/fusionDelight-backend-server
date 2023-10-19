@@ -116,7 +116,7 @@ app.put('/update-dish/:id', upload.single('image'), async (req, res) => {
       if (existingDish.dishUrl) {
         // Delete the old image from the 'uploads' folder
         // You may need to install and import the 'fs' module for this
-        fs.unlinkSync(`uploads/${existingDish.dishUrl}`);
+        // fs.unlinkSync(`uploads/${existingDish.dishUrl}`);
       }
 
       // Update the dish document with the new image filename
